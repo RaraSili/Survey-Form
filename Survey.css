@@ -1,0 +1,51 @@
+  header{
+    text-align: center;
+    padding-top: 30px;
+  }
+  label{
+    display: block;
+  }
+  #survey-form{
+    padding: 3% 5% 0 5%;
+    background-color: #457b9d;
+    margin: 3% 25% 0 25%;
+  }
+  body{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: serif;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrH59-u9D8epwz93yS_UCi1k5TdPHZAFKGBQ&usqp=CAU);
+    background: #1d3557;
+  }
+  /* margin and that kind of stuff*/
+  .forms{
+    margin: 0 auto 1.25rem auto;
+    padding: 0.25rem;
+  }
+  h1, p, label {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+input, select{
+  width: 100%;
+  height: 6%;
+  border-radius: 5%;
+  border-color: #023047;
+}
+input[type='radio'],[type='checkbox']{
+  width: auto;
+  height: auto;
+}
+textarea{
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize:  horizontal;
+}
+label,p{
+  font-size: 18px;
+}
+span{
+  font-size: 13px;
+}

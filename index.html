@@ -1,0 +1,69 @@
+
+<head>
+  <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1 id="title">Yes, a survey forms indeed</h1>
+      <p id="description">調查，但用日語寫成</p>
+    </header>
+    <form id="survey-form" action="index.html" method="post">
+      <div class="forms">
+        <label  id="name-label" for="name">Name</label>
+        <input id="name" type="text" name="name" value="" placeholder="Type your name" required>
+      </div>
+      <div class="forms">
+        <label id="email-label" for="email">Email</label>
+        <input id="email" type="email" name="email" value="" placeholder=" Type your email" required>
+      </div>
+      <div class="forms">
+        <label id="number-label" for="number">Age <span>(Optional)</span></label>
+        <input id="number" type="number" name="number" value="" max="100" min="10" placeholder="Type you age">
+      </div>
+      <div class="forms">
+        <p>Are you a:</p>
+        <select id="dropdown" name="role" class="form-control" required>
+          <option value="" disabled selected>click to select</option>
+          <option value="woman">Woman</option>
+          <option value="man">Man</option>
+          <option value="dog">Dog</option>
+          <option value="helicopter">Helicopter</option>
+          <option value="B-52 Stratofortress">B-52 Stratofortress</option>
+          <option value="other">Other;)</option>
+        </select>
+      </div>
+      <div class="forms">
+        <p id="radios">Are you satified with this forms?</p>
+        <label for="">
+          <input type="radio" name="form-rec" value="no">
+        No</label>
+        <label for="">
+          <input type="radio" name="form-rec" value="yes">
+        Yes</label>
+        <label for="">
+          <input type="radio" name="form-rec" value="no-but-yes">
+        No but Yes</label>
+        <label for="">
+          <input type="radio" name="form-rec" value="yes-but-no">
+        Yes but No</label>
+      </div>
+      <div class="forms">
+        <p>I have no creativity to write this</p>
+        <label>
+        <input type="checkbox" name="checx-form" value="yeah totally">yeah totally</label>
+        <label>
+        <input type="checkbox" name="checx-form" value="me too">me too</label>
+        <label>
+        <input type="checkbox" name="checx-form" value="i fell you bro">i fell you bro</label>
+      </div>
+      <div class="forms">
+        <p>Please leave a comment</p>
+        <textarea id="comment" name="comment" rows="8" cols="80" placeholder="leave a comment here"></textarea>
+      </div>
+      <div class="forms">
+        <button id="submit" type="submit" name="button">Submit</button>
+      </div>
+    </form>
+  </div>
+</body>
